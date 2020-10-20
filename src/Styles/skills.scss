@@ -1,0 +1,36 @@
+.service-icon {
+    background-color: #ffffff;
+    color: #1d809f;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-pencil,
+  .icon-screen-smartphone,
+  .icon-mustache,
+  .icon-like {
+    line-height: inherit;
+  }
+
+  .content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color:#1d809f;
+  }
+  
+  .content-section-heading {
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #ecb807;
+    }
+  }
+  
