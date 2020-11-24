@@ -1,5 +1,5 @@
 import React from 'react';
-import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
+import { AccessAlarm } from '@material-ui/icons';
 
 const AboutMe = () => {
 

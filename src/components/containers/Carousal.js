@@ -19,11 +19,9 @@ const Carousal = () => {
           </div>
           <div>
             <img src={background2} alt="Background" width="100%" />
-            <h3>2</h3>
           </div>
           <div>
             <img src={background3} alt="Background" width="100%" />
-            <h3>3</h3>
           </div>
         </Slider>
       );

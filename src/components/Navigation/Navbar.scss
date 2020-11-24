@@ -1,11 +1,10 @@
 .Navbar {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10%;
+    padding: 5px 7%;
     background-color: #24252a;
   }
   
@@ -48,4 +47,15 @@
     cursor: pointer;
     transition: background-color 0.3s ease 0s;
   }
+
+  @font-face {
+    font-family: 'MyWebFont';
+    src: url('../../images/ProgressPersonalUse-EaJdz.ttf') format('truetype');
+  }
   
+  .logo-header{
+    font-family: 'MyWebFont';
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
