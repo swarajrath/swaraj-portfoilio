@@ -14,7 +14,7 @@ const Contact = () => {
         console.log(name, email, message)
         
 
-        Axios.post('https://swaraj-portfolio.herokuapp.com/', {name, email, message}).then(res => {
+        Axios.post('https://swaraj-portfolio.herokuapp.com/contact', {name, email, message}).then(res => {
             if (res.data.success) {
                 setemailSent(true)
             } else {
