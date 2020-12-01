@@ -9,10 +9,21 @@
 
 .front-end {
   background-image: url("../../images/cool-background.png");
-  height: 60vh;
+  height: 80vh;
 }
 
 .frontend-skills {
   width: 50%;
   margin: 50px;
+}
+
+.skill-paragraph {
+  font-family: "Merriweather", serif;
+  font-size: 1.3rem;
+  display: block;
+  letter-spacing: 0.04rem;
+  line-height: 1.75rem;
+  color: #2e2e2e;
+  text-align: justify;
+  text-justify: inter-word;
 }

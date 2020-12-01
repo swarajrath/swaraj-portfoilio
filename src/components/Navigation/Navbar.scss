@@ -25,6 +25,7 @@
   .nav__links {
     list-style: none;
     display: flex;
+    margin-top: 10px;
   }
   
   .nav__links li {
@@ -42,6 +43,7 @@
   .cta {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
+    color: #ffffff;
     border: none;
     border-radius: 50px;
     cursor: pointer;

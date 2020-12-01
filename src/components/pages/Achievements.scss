@@ -215,7 +215,7 @@
           padding-bottom: 6px;
           line-height: 1rem;
           @include mq-sm {
-            font-size: 165%;
+            font-size: 130%;
             line-height: 1.2rem;
           }
           span {
@@ -236,11 +236,11 @@
         @include mq-lg {
           height: $body-height;
         }
-        p {
-          font-size: 14px;
-          line-height: 18px;
-          margin-bottom: $inner-margin;
-        }
+        // p {
+        //   font-size: 14px;
+        //   line-height: 18px;
+        //   margin-bottom: $inner-margin;
+        // }
         img {
           display: block;
           width: 100%;
@@ -256,4 +256,8 @@
         }
       }
     }
+  }
+
+  .certificate-class {
+    height: 85%;
   }

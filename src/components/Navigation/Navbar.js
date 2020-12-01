@@ -12,10 +12,9 @@ const Navbar = () => {
                     <li><a href='/projects'>Projects</a></li>
                     <li><a href='/achievements'>Acheivement</a></li>
                     <li><a href='/experience'>Experience</a></li>
-                    <li><a href='/about'>About</a></li>
                 </ul>
             </nav>
-            <button className="cta">Contact</button>
+            <a className="cta" href='/contact'>Contact</a>
         </div>
     )
 }
