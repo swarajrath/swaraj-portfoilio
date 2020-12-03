@@ -1,7 +1,7 @@
 import React from 'react';
 import swaraj1 from '../../images/swaraj2.jpg'
-import background2 from '../../images/background2.jpg'
-import background3 from '../../images/background3.jpg';
+import background2 from '../../images/background2.png'
+// import background3 from '../../images/background3.jpg';
 import Slider from "react-slick";
 
 const Carousal = () => {
@@ -20,9 +20,6 @@ const Carousal = () => {
           </div>
           <div>
             <img src={background2} alt="Background" width="100%" height="50%"/>
-          </div>
-          <div>
-            <img src={background3} alt="Background" width="100%" height="50%"/>
           </div>
         </Slider>
       );

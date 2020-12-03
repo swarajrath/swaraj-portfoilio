@@ -1,5 +1,5 @@
 import React from 'react';
-import { AccessAlarm } from '@material-ui/icons';
+import { Facebook, Email, GitHub, LinkedIn } from '@material-ui/icons';
 
 const AboutMe = () => {
 
@@ -8,33 +8,28 @@ const AboutMe = () => {
             <div className="col col-md-6">
                 <h3 className="mb2">About me</h3>
                 <p className="about-paragraph">
-                    Yevgeniy (Jim) Brikman loves programming, writing, speaking, traveling, and lifting heavy things. He does not
-                    love talking about himself in the 3rd person. He is the co-founder of Gruntwork, a company that provides
-                    DevOps as a Service. He's also the author of two books published by O'Reilly Media:
-                    Hello, Startup and Terraform: Up and Running. Previously, he spent more than a decade building infrastructure and products that
-                    served hundreds of millions of users while working as a software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson
-                    Financial. For more info, check out his writing , speaking,
-                    projects , and photos. </p>
+                    My name is Swaraj Rath. I have robust knowledge in creating beautiful, useful, responisve, professional website using best practice accessibility and latest frameworks. I have a high passion for designing technologies and web development. I primaryly use React but picking up new frameworks or language isn't a problem for me. Because I have good knowledge in development of Front-End and back-End as well as setting up infrastructure of a project.
+                    <br/>I'm currently working in SAP as a SAP Full Stack developer. Professionally for work I use SAP UI5 Frameworks and SAP HANA Database. In this position I have gained professional industry experience, exposure to large data-sets and implementation of application by working with experienced developers.</p>
 
             </div>
             <div className="contact-div">
                 <h3 className="mb2">Contact</h3>
                 <div className="d-flex flex-column">
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2">
-                    <i className="fa fa-fw fa-2x valign-middle"><AccessAlarm /></i>
-                    <span className="h5 header-font">Twitter</span>
+                <a href="https://www.linkedin.com/in/swaraj-rath-9001b0140" target="_blank" rel="noopener noreferrer" className="p-2">
+                    <i className="fa fa-fw fa-2x valign-middle"><LinkedIn /></i>
+                    <span className="h5 header-font text-primary">LinkedIn</span>
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="p-2">
-                    <i className="fa fa-fw fa-2x valign-middle"><AccessAlarm /></i>
-                    <span className="h5 header-font">Facebook</span>
+                <a href="https://github.com/swarajrath" target="_blank" rel="noopener noreferrer" className="p-2">
+                    <i className="fa fa-fw fa-2x valign-middle"><GitHub /></i>
+                    <span className="h5 header-font text-primary">GitHub</span>
                 </a>
-                <a href="https://github.com.com" target="_blank" rel="noopener noreferrer" className="p-2">
-                    <i className="fa fa-fw fa-2x valign-middle"><AccessAlarm /></i>
-                    <span className="h5 header-font">Github</span>
+                <a href="https://www.facebook.com/gulalrath" target="_blank" rel="noopener noreferrer" className="p-2">
+                    <i className="fa fa-fw fa-2x valign-middle"><Facebook /></i>
+                    <span className="h5 header-font text-primary">Facebook</span>
                 </a>
-                <a href="https://gmail.com" target="_blank" rel="noopener noreferrer" className="p-2">
-                    <i className="fa fa-fw fa-2x valign-middle"><AccessAlarm /></i>
-                    <span className="h5 header-font">Email</span>
+                <a href="mailto:swarajrath007@gmail.com?Subject=Support" className="p-2">
+                    <i className="fa fa-fw fa-2x valign-middle"><Email /></i>
+                    <span className="h5 header-font text-primary">Email</span>
                 </a>
                 </div>
             </div>

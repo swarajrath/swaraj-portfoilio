@@ -15,10 +15,10 @@ const Footer = () => {
                     </ul>
                     <p className="text-center text-white">Copyright @2020 | Designed by <a href="http://www.swarajrath.live">Swaraj Rath</a></p>
                     <ul className="social_footer_ul">
-                        <li><a href="http://webenlance.com"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="http://webenlance.com"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="http://webenlance.com"><i className="fab fa-linkedin"></i></a></li>
-                        <li><a href="http://webenlance.com"><i className="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/gulalrath"><i className="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://github.com/swarajrath"><i className="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/swaraj-rath-9001b0140"><i className="fab fa-linkedin"></i></a></li>
+                        <li><a href="mailto:swarajrath007@gmail.com?Subject=Support"><i className="fas fa-envelope-open"></i></a></li>
                     </ul>
                 </div>
 

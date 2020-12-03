@@ -12,8 +12,8 @@ const Achievements = () => {
 	return (
 		<div>
 			<section id="timeline">
-				<h1>A Flexbox Timeline</h1>
-				<p className="leader">All cards must be the same height and width for space calculations on large screens.</p>
+				<h1>My Achievements</h1>
+				<p className="leader">The page contains all the Certificates which I have received.</p>
 				<div className="demo-card-wrapper">
 
 					<div className="demo-card demo-card--step4">

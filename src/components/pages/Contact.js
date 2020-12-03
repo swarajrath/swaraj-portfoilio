@@ -32,7 +32,7 @@ const Contact = () => {
             <div className="contact-container">
                 <form id="contact" onSubmit={handleSubmit}>
                     <h3>Quick Contact</h3>
-                    <h4>Contact us today, and get reply with in 24 hours!</h4>
+                    <h4>Contact me today, and get reply with in 24 hours!</h4>
                     <fieldset>
                         <input placeholder="Your name" type="text" value={name} tabIndex="1" onChange={(e) => {setname(e.target.value)}} required />
                     </fieldset>

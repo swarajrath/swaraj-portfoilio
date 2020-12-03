@@ -1,59 +1,51 @@
 import React from "react";
-import ScrollableAnchor from "react-scrollable-anchor";
 import '../../Styles/skills.scss';
+import SAPLogo from '../../images/sap-logo.png';
 
-const ServicesOffered = [
-  {
-    title: "Responsive",
-    description: "Looks great on any screen size!",
-    icon: "icon-screen-smartphone"
-  },
-  {
-    title: "Redesigned",
-    description: "Freshly redesigned for Bootstrap 4.",
-    icon: "icon-pencil"
-  },
-  {
-    title: "Favorited",
-    description: (
-      <span>
-        Millions of users <i className="fas fa-heart" /> Start Bootstrap!
-      </span>
-    ),
-    icon: "icon-like"
-  },
-  {
-    title: "Question",
-    description: "I mustache you a question...",
-    icon: "icon-mustache"
-  }
-];
+
+
 const Skills = () => (
-  <ScrollableAnchor id="services">
+  <div>
     <section className="content-section text-white text-center">
       <div className="container">
         <div className="content-section-heading">
-          <h3 className="text-warning mb-0">Services</h3>
-          <h2 className="mb-5">What We Offer</h2>
+          <h3 className="text-warning mb-0">Skillsets</h3>
+          <h2 className="mb-5">Things I know</h2>
         </div>
         <div className="row">
-          {ServicesOffered.map((service, index) => (
-            <div
-              className="col-lg-3 col-md-6 mb-5 mb-lg-0"
-              key={`service_${index}`}
-            >
-              <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className={service.icon} />
-              </span>
-              <h4>  
-                <strong>{service.title}</strong>
-              </h4>
-              <p className="text-faded mb-0">{service.description}</p>
-            </div>
-          ))}
+
+          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span className="service-icon rounded-circle mx-auto mb-3">
+              <i className="fab fa-react" />
+            </span>
+            <h4><strong>Front-End Development</strong></h4>
+            <p className="text-faded mb-0">Creating the website with unique designs.</p>
+          </div>
+          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span className="service-icon rounded-circle mx-auto mb-3">
+              <i className="fas fa-database" />
+            </span>
+            <h4><strong>Back-End Development</strong></h4>
+            <p className="text-faded mb-0">Server side programming</p>
+          </div>
+          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span className="service-icon rounded-circle mx-auto mb-3">
+              <i><img alt="SAP" style={{height: "71%", width: "64%", margin: "0 0 11px 5px"}} src={SAPLogo} /></i>
+            </span>
+            <h4><strong>SAP Development</strong></h4>
+            <p className="text-faded mb-0">Developing SAP Web application using Fiori and HANA</p>
+          </div>
+          <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span className="service-icon rounded-circle mx-auto mb-3">
+              <i className="fas fa-mobile" />
+            </span>
+            <h4><strong>Mobile App Development</strong></h4>
+            <p className="text-faded mb-0">Using React Native to build efficient web application</p>
+          </div>
+
         </div>
       </div>
     </section>
-  </ScrollableAnchor>
+  </div>
 );
 export default Skills;
