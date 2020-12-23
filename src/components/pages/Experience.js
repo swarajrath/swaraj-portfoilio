@@ -23,22 +23,18 @@ const Experience = () => {
   return (
     <div className="experience">
       <div className="d-flex justify-content-center mt-4 mb-4">
-        <h1>Experience</h1>
+        <h1>Professional Experience</h1>
       </div>
       <div className={showdetails ? "accordionItem open" : "accordionItem close"}
         onClick={() => setshowdetails(!showdetails)}>
-        <h3 className="accordionItemHeading">Working Student - SAP, Walldorf</h3>
+        <h3 className="accordionItemHeading">Working Student as Application Developer for CIW - SAP, Walldorf</h3>
         <div className="accordionItemContent">
           <h4>From: 07.01.2020 - To: Currently Working</h4>
           <h3>Projects</h3>
           <ul>
-            <li><p><b>CEI Analytics: </b> Its Overview Page application for graphical representation of CEI data to make customer experience smoother
-            by showing the project they have participated in analytical format using SAP Analytics Cloud. Also, I have created several
-            Analytical List Pages for more detailed insight into the projects. This whole project is designed with SAP UI5, SAP HANA and OData Service</p></li>
-            <li><p><b>CIW Task Manager: </b>I have personally created this application by using the power of SAP UI5, HANA, OData Service for CIW team to better manage,
-            provide comments and check status of responsibilities inside our team. It reduces the effort of a manager inside a team to assign responsibility within a team.</p></li>
-            <li><p><b>CC/CIS Session Owner: </b></p>A responsive SAP UI5 web application for customers to view the projects they have participated in and download detail list of all their projects
-            in an excel sheet. I have partially worked in this application for better performance and efficiency.</li>
+            <li className="li_element"><p><b>CEI Analytics: </b> Analytics launchpad built using SAP Analytics Cloud for the CEI team & selected CEI roles. Its productive purpose is to visualize customer project details & provide insights into CEI cycle data. As main developer in the team I was creating several Analytical List Pages, Overview Page Cards, oData services, specific role-based filters for OVPs.</p></li>
+            <li className="li_element"><p><b>CIW Task Manager: </b>I have personally created a new application using SAP UI5, HANA, oData Service to manage development and bugfixing tasks across the whole CIW Development Team (backlog) incl the project manager.</p></li>
+            <li className="li_element"><p><b>CC/CIS Session Owner: </b>A responsive SAP UI5 application for SAP Session Owners (from SAP’s product area) providing key details on assigned CC/CIS projects. Additionally it allows them to download a more detailed project and improvement requests data into XLS files. I’ve worked in this application to help fixing bugs and improve the UI.</p></li>
           </ul>
         </div>
       </div>
