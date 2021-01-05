@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className="col col-md-6">
                 <h3 className="mb2">About me</h3>
                 <p className="about-paragraph">
-                    My name is Swaraj Rath. I have robust knowledge in creating beautiful, useful, responisve, professional website using best practice accessibility and latest frameworks. I have a high passion for designing technologies and web development. I primaryly use React but picking up new frameworks or language isn't a problem for me. Because I have good knowledge in development of Front-End and back-End as well as setting up infrastructure of a project.
+                    My name is Swaraj Rath. I have robust knowledge in creating beautiful, useful, responsive, professional website using best practice accessibility and latest frameworks. I have a high passion for designing technologies and web development. I primarily use React but picking up new frameworks or language isn't a problem for me because I have good knowledge in development of Front-End and Back-End, as well as setting up infrastructure of a project.
                     <br/>I'm currently working in SAP as a SAP Full Stack developer. Professionally for work I use SAP UI5 Frameworks and SAP HANA Database. In this position I have gained professional industry experience, exposure to large data-sets and implementation of application by working with experienced developers.</p>
 
             </div>

@@ -40,7 +40,7 @@ const Skills = () => (
               <i className="fas fa-mobile" />
             </span>
             <h4><strong>Mobile App Development</strong></h4>
-            <p className="text-faded mb-0">Using React Native to build efficient web application</p>
+            <p className="text-faded mb-0">Using React Native to build efficient mobile application</p>
           </div>
 
         </div>

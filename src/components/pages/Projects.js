@@ -29,7 +29,7 @@ const Projects = () => {
                                 <div className="card-content">
                                     <h2>MERN E-Commerce</h2>
                                     <p><small>build using: <span className="built-using">MERN</span></small></p>
-                                    <p className="related">A very efficient e-commerce website to post/purchase goods, manage shipping, handle payment.</p>
+                                    <p className="related">A very efficient e-commerce website to post/purchase goods, manage shipping, handle payments etc.</p>
                                     <div className="d-flex justify-content-around">
                                     <a className="hyperlink" href="https://github.com/swarajrath/mern-ecommerce.git" rel="noopener noreferrer" target="_blank">Source Code</a>
                                     {/* <a className="hyperlink" href="" rel="noopener noreferrer" target="_blank">Deployed Link</a> */}
@@ -72,7 +72,7 @@ const Projects = () => {
                                 <div className="card-content">
                                     <h2>Abstrus Arch</h2>
                                     <p><small>build using: <span className="built-using">MERN, Socket IO</span></small></p>
-                                    <p className="related">A social media website where user can login, post tweets and images and chat realtime</p>
+                                    <p className="related">A social media website where user can login, post tweets and images and chat in realtime</p>
                                     <div className="d-flex justify-content-around">
                                     <a className="hyperlink" href="https://github.com/swarajrath/abstrus-arch-socialMedia.git" rel="noopener noreferrer" target="_blank">Source Code</a>
                                     {/* <a className="hyperlink" href="https://swarajrath-foodizone.netlify.app/" rel="noopener noreferrer" target="_blank">Deployed Link</a> */}
@@ -111,7 +111,7 @@ const Projects = () => {
                         <div className="courses-container">
                             <div className="card">
                                 <div className="card-content">
-                                    <h2>Manage Seasonal Tires and Wheels</h2>
+                                    <h2>Manage Seasonal Tyres and Wheels</h2>
                                     <p><small>build using: <span className="built-using">C#, WPF</span></small></p>
                                     <p className="related">A desktop application for managing seasonal tires.</p>
                                     <div className="d-flex justify-content-around">

@@ -10,7 +10,7 @@ const Footer = () => {
                         <li><a href="/">Home</a></li>
                         <li><a href="/skills">Skills</a></li>
                         <li><a href="/projects">Projects</a></li>
-                        <li><a href="/achievements">Achievement</a></li>
+                        <li><a href="/achievements">Achievements</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                     <p className="text-center text-white">Copyright @2020 | Designed by <a href="http://www.swarajrath.live">Swaraj Rath</a></p>
