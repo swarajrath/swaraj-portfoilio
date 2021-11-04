@@ -2,7 +2,7 @@ This is source code of my portfolio webste
 
 ## Swaraj Rath
 
-Visit [https://www.swarajrath.live](https://www.swarajrath.live) to view it in the browser.
+Visit [https://swaraj-portfolio.netlify.app/](https://swaraj-portfolio.netlify.app/) to view it in the browser.
 
 
 
