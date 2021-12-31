@@ -13,6 +13,9 @@ import MongoDB from '../../images/MongoDB-Logo.png';
 import Bootstrap from '../../images/bootstrap-logo.png';
 import Fiori from '../../images/fiori2.png';
 import ReactNative from '../../images/react-native.png';
+import TypeScript from '../../images/Typescript_logo_2020.svg.png';
+import JAVA from '../../images/java-logo.png';
+
 
 
 const Skills = () => {
@@ -28,7 +31,7 @@ const Skills = () => {
                         <p className="skill-paragraph">Here's my weapon of choice.</p>
                     </div>
                     <div className="frontend-skills">
-                        <div className="d-flex flex-column">
+                        <div className="d-flex flex-column mt-5">
                             <div className="d-flex justify-content-around">
                                 <div className=""><img src={HTML} alt="HTML" style={{ width: "7rem", height: "7rem" }} />
                                     <h4 className="text-center">HTML5</h4>
@@ -47,9 +50,11 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="d-flex flex-column mt-4">
+                        <div className="d-flex flex-column mt-5">
                             <div className="d-flex justify-content-around">
-
+                                <div className=""><img src={TypeScript} alt="TypeScript" style={{ width: "7rem", height: "7rem" }} />
+                                    <h4 className="text-center">TypeScript</h4>
+                                </div>
                                 <div className=""><img src={MongoDB} alt="ReactJS" style={{ width: "7rem", height: "7rem" }} />
                                     <h4 className="text-center">MongoDB</h4>
                                 </div>
@@ -64,8 +69,11 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="d-flex flex-column mt-4">
+                        <div className="d-flex flex-column mt-5">
                             <div className="d-flex justify-content-around">
+                                <div className=""><img src={JAVA} alt="JAVA" style={{ width: "5rem", height: "7rem" }} />
+                                    <h4 className="text-center">JAVA</h4>
+                                </div>
                                 <div className=""><img src={SAPUI5} alt="JavaScript" style={{ width: "7rem", height: "7rem" }} />
                                     <h4 className="text-center">SAP UI5</h4>
                                 </div>

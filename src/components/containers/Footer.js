@@ -13,7 +13,7 @@ const Footer = () => {
                         <li><a href="/achievements">Achievements</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
-                    <p className="text-center text-white">Copyright @2020 | Designed by <a href="http://www.swarajrath.live">Swaraj Rath</a></p>
+                    <p className="text-center text-white">Copyright @2020 | Designed by <a href="http://www.swarajrath.com">Swaraj Rath</a></p>
                     <ul className="social_footer_ul">
                         <li><a href="https://www.facebook.com/gulalrath"><i className="fab fa-facebook-f"></i></a></li>
                         <li><a href="https://github.com/swarajrath"><i className="fab fa-github"></i></a></li>
