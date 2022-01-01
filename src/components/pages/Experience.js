@@ -42,7 +42,7 @@ const Experience = () => {
         </div>
       </div>
 
-      <div className={showdetails ? "accordionItem open" : "accordionItem close"}
+      <div className={showdetails ? "accordionItem close" : "accordionItem open"}
         onClick={() => setshowdetails(!showdetails)}>
         <h3 className="accordionItemHeading">Working Student as Application Developer for CIW - SAP, Walldorf</h3>
         <div className="accordionItemContent">
@@ -58,13 +58,14 @@ const Experience = () => {
 
       <div className={showproject ? "accordionItem close" : "accordionItem open"}
         onClick={() => setshowproject(!showproject)}>
-        <h3 className="accordionItemHeading">Research Paper Publication at Iternaional Human Comuter Interaction, Norway</h3>
+        <h3 className="accordionItemHeading">Research Paper Publication at 15th Internaional Conferance on Interface and Human Computer interaction 2021</h3>
         <div className="accordionItemContent">
           <h3>Levraging Voice Assistive Technology to Enhance Health Monitoring of Older Adults</h3>
-          <p>The use of mHealth application is rapidly growing in recent years. mHealth(Mobile Health) are very popular among younger generation,
-            but the application developer failed to attract older adults as their end user of the healthcare application. So I am creating a mHealth application
-            which could be used both by diverse age groups. Using React Native I am creating a mobile application which could be be controlled through voice command that might 
-            help get rid of complex navigations and helps older adults to a great extent.
+          <p>With the growing population of older adults, the need for mHealth to address specific aging features is also increasing. However, various research and usability studies on those 
+            mHealth applications indicate that mHealth is still not planned with older adults and their needs in mind. It is critical to gain insight into aging obstacles that affect the 
+            usability of mHealth as encountered by older adults in order to improve mHealth designs targeted at this demographic.
+            So I have created a mHealth application (CORE-Energy), a conceptual context-aware assistive application by integrating a language-technology-driven interface into 
+            mHealth, which helps independent living older adults to keep track of their health and routine.
           </p>
         </div>
       </div>

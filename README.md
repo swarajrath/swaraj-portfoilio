@@ -1,8 +1,8 @@
-This is source code of my portfolio webste
+This is source code of my portfolio website
 
 ## Swaraj Rath
 
-Visit [https://swaraj-portfolio.netlify.app/](https://swaraj-portfolio.netlify.app/) to view it in the browser.
+Visit [https://swarajrath.com/](https://swarajrath.com/) to view it in the browser.
 
 
 
